@@ -12,15 +12,20 @@
     name: 'home'
   }
 </script>
-<!--<style lang="stylus" rel="stylesheet/stylus">-->
-  <!--@import '../assets/style.styl'-->
-  <!--h2-->
-    <!--color:h_color-->
-<!--</style>-->
-<style scoped>
-  h2{
-    color:firebrick;
-  }
+<style lang="stylus" rel="stylesheet/stylus">
+  @import '../assets/style.styl'
+  h2
+    color:$h_color
 </style>
+<!--<style lang="less">
+  .home {
+    border: 1px solid red;
+
+  h2 {
+    color: red;
+  }
+
+  }
+</style>-->
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
